@@ -73,13 +73,13 @@ Don’t forget to name it <monitoring.sh>
 
 # Defense Questions
 
- 
+ <code><b>What’s Virtual Machine? </b> </code>
 
-What’s Virtual Machine? 
 
 A program on computer that work like separate computer inside the main computer, it can run applications and more than one OS (each of this OS will behave as if they were hosted on a physical device) in the same time also it’s isolated from the rest of the system. 
 
-How a virtual machine works? 
+ <code><b>How a virtual machine works? </b> </code>
+
 
 First, we got to define what’s a Hypervisor; 
 
@@ -95,27 +95,39 @@ The Hypervisor manages the request so that the guest OS could access to the reso
 
 Their choice of operating system? 
 
+ <code><b>The basic differences between CentOS and Debian ?</b> </code>
+
+
+  <code><b>The purpose of virtual machines? </b> </code>
+
+
+  <code><b>Since I chose Debian: the difference between aptitude and apt, and what APPArmor is?</b> </code>
+
  
 
-The basic differences between CentOS and Debian 
 
- 
 
-The purpose of virtual machines? 
 
- 
+APPArmor protects the operating system and applications from external or internal threats, AppArmor is a Mandatory Access Control framework. When enabled, AppArmor confines programs according to a set of rules that specify what files a given program can access. This proactive approach helps protect the system against both known and unknown vulnerabilities
 
-Since I chose Debian: the difference between aptitude and apt, and what APPArmor is? 
+  <code><b>The advantages of this password policy? And the advantages and disadvantages of its implementation? </b> </code>
 
-The advantages of this password policy? And the advantages and disadvantages of its implementation? 
+
 
 Well, the main object is to enforce to use a strong and unique password that harder to crack also by using this policy we granted a higher protection of personnel valuable information, and their disadvantages that by using a strong password well make it hard to remember  
 
-How LVM (Logical Volume Manager) works and what it is all about? 
+<code><b>How LVM (Logical Volume Manager) works and what it is all about? </b> </code>
+
+
+
 
 With LVM we have more flexibility when it comes to managing (create, delete, resize) 
 
-What’s UFW (Uncomplicated Firewall) and the value of using it? 
+
+<code><b>What’s UFW (Uncomplicated Firewall) and the value of using it? </b> </code>
+
+
+
 
 A firewall interface configuration tool that runs on top of iptables (is a user space utility program that allows set up and maintain a system administrator to configure the IP (Internet Protocol used to identify machines connected to a network) packet filter rules), a tool that is geared to simplifying the process of configuring a Firewall traffic (the amount of data moving across a network at a given point of time). 
 
@@ -125,23 +137,25 @@ UFW is an interface to iptables that is geared towards simplifying the process o
 
 Firewall = a network security device that monitors and filters incoming / outgoing network traffic based on an organization's previously established security policies, A firewall only welcomes those incoming connections that it has been configured to accept (allow, block). 
 
- 
+ <code><b>What’s SSH (Secure Shell) and the value of using it? </b> </code>
 
-What’s SSH (Secure Shell) and the value of using it? 
+
 
 A network protocol (a sets of rules governing exchange of information in an easy reliable and secure way) that allows one computer to securely connect to another computer over a network (Internet), SSH encrypt automatically the packet data between computers without worrying about hacking. 
 
 SSH makes network connection between computers with strong guarantees that the parties of the connection genius, 
 
-The Mechanism of Working;
+ <code><b>The Mechanism of Working?</b> </code>
+
 
 | User Key      | Session Key   | Host key 	  | Server Key 	  |
 | ------------- | ------------- | --------    | --------	  |
 
 A strong end to end encryption, the end-to-end encryption based on random keys that are securely negotiated for that session and then destroyed when the session over 
 
+ <code><b>What’s Cron? </b> </code>
 
-What’s Cron? 
+
 
 A system process that will automatically perform tasks (each task has defined through a single line) as per the specific schedule, a set of commands that are used for running regular scheduling tasks, run small and quick commands on scheduled basics, this is an example; 
 
