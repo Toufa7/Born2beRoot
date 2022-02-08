@@ -1,32 +1,26 @@
-# Born2beRoot
- 
-
-
-
 # Password Policy
 
-
-reject_username 
+> reject_username 
 
 Check whether the name of the user in straight or reversed form is contained in the new password. If it is found the new password is rejected 
 
-Minlen 
+> Minlen 
 
 minimum password length 
 
-Difok 
+> Difok 
 
 the minimum number of characters that must be different from the old password 
 
-Lcredit 
+> Lcredit 
 
 maximum number of lowercase characters that will generate a credit  
 
-Ucredit 
+> Ucredit 
 
 maximum number of uppercase characters that will generate a credit  
 
-Dcredit 
+> Dcredit 
 
 maximum number of digits that will generate a credi 
 
