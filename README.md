@@ -70,7 +70,7 @@ Don’t forget to name it <monitoring.sh>
  <code><b>What’s Virtual Machine? </b> </code>
 
 
-A program on computer that work like separate computer inside the main computer, it can run applications and more than one OS (each of this OS will behave as if they were hosted on a physical device) in the same time also it’s isolated from the rest of the system. 
+A program on computer that work like separate computer inside the main computer, in the same time also it’s isolated from the rest of the system. 
 
  <code><b>How a virtual machine works? </b> </code>
 
@@ -90,32 +90,53 @@ The Hypervisor manages the request so that the guest OS could access to the reso
 Their choice of operating system? 
 
  <code><b>The basic differences between CentOS and Debian ?</b> </code>
+ 
+ ![image description](https://cdn.educba.com/academy/wp-content/uploads/2018/09/CentOS-vs-Debian-1.jpg)
+OR
+<img src="https://cdn.educba.com/academy/wp-content/uploads/2018/09/CentOS-vs-Debian-1.jpg" width="128"/>
 
 
   <code><b>The purpose of virtual machines? </b> </code>
-
+  
+  ✅ Run applications and more than one OS (each of this OS will behave as if they were hosted on a physical device)
+  
+  ✅ Isolated environment for developing (protection from failure)
+  
+  ✅ Cost saving
+ 
 
   <code><b>Since I chose Debian: the difference between aptitude and apt, and what APPArmor is?</b> </code>
 
+<code><i>Aptitude</i></code> is front-end to advanced packaging tool which adds a user interface to the functionality thus allowing a user to interactively search for a package and install or remove it.
+
+<code><i>Apt or Advanced Packaging Tool?</i> </code> is a free and open source software which gracefully handles software installation and removal. Initially it was designed for Debian’s .deb packages but it has been made compatible with RPM Package Manager.
  
+- both apt-get and aptitude are command line package management , The most obvious difference is that aptitude provides a terminal menu interface whereas apt-get does not.
+
+- Aptitude has a better package management than apt-get, why ?! let's see ..
+
+Application : Try to install a simple program i'll go with a simple text editor 
+
+	sudo apt install geany
 
 
 
+<code><i>APPArmor</i></code> protects the operating system and applications from external or internal threats, AppArmor is a Mandatory Access Control framework. When enabled, AppArmor confines programs according to a set of rules that specify what files a given program can access. This proactive approach helps protect the system against both known and unknown vulnerabilities
 
-APPArmor protects the operating system and applications from external or internal threats, AppArmor is a Mandatory Access Control framework. When enabled, AppArmor confines programs according to a set of rules that specify what files a given program can access. This proactive approach helps protect the system against both known and unknown vulnerabilities
+What we get at the end? Which one is better, and which one should you use? In simple terms, you can use any of them — considering that your requirement is met.
 
   <code><b>The advantages of this password policy? And the advantages and disadvantages of its implementation? </b> </code>
 
 
 
-Well, the main object is to enforce to use a strong and unique password that harder to crack also by using this policy we granted a higher protection of personnel valuable information, and their disadvantages that by using a strong password well make it hard to remember  
+Well, the main object is to enforce to use a strong and unique password that harder to crack (it protects against a range of attacks) also by using this policy we granted a higher protection of personnel valuable information, and their disadvantages that by using a strong password well make it hard to remember  
 
 <code><b>How LVM (Logical Volume Manager) works and what it is all about? </b> </code>
 
 
 
 
-With LVM we have more flexibility when it comes to managing (create, delete, resize) 
+With LVM we have more flexibility (dynamic partitions) when it comes to managing (create, delete, resize) 
 
 
 <code><b>What’s UFW (Uncomplicated Firewall) and the value of using it? </b> </code>
@@ -331,7 +352,9 @@ Only when the first command cmd1 failed to run, run the second command cmd2:
 
 # Resources
  
+apt vs aptitude
 
+https://lgallardo.com/2009/03/23/apt-vs-aptitude/
 
 
 How to set password policy on Linux 
@@ -361,5 +384,7 @@ https://www.cyberciti.biz/tips/linux-last-reboot-time-and-date-find-out.html
 Check the Number of active connections on port x ? 
 
 https://serverfault.com/questions/421310/check-the-number-of-active-connections-on-port-80 
+
+
 
  
