@@ -216,137 +216,141 @@ A system process that will automatically perform tasks (each task has defined th
 
 Check The Differences ; 
 
-	$ Diff <file1> <file2> 
+	Diff <file1> <file2> 
 
 Check that the UFW; 
 
-	$ systemctl status UFW 
+	systemctl status UFW 
 
 or 
 
-	$ ufw status 
+	ufw status 
 
 Check that the SSH; 
 
-	$ service ssh status 
+	service ssh status 
 
 Operating system; 
 
-	$ uname –v 
+	uname –v
+	
+or
+
+	neofetch (to install it $ apt-get install neofetch)
 
 Check that the user belongs to user42 and sudo; 
 
-	$ groups <username> 
+	groups <username> 
 
 Password policy 
 
-	$ vi /etc/pam.d/common-password 
+	vi /etc/pam.d/common-password 
 
 And 
 
-	$ vi etc/login.defs 
+	vi etc/login.defs 
 
 or 
 
-	$ chage -l user 
+	chage -l user 
 
 Create a new user; 
 
-	$ adduser <name> 
+	adduser <name> 
 
 for case with no password for a user 
 
-	$ useradd <name> 
+	useradd <name> 
 
-Check if the user creates or note; 
+Check if the user creates or not; 
 
-	$ cat /etc/passwd | cut –d: -f1 
+	cat /etc/passwd | cut –d: -f1 
 
 Create a new group; 
 
-	$ addgroup <name> 
+	addgroup <name> 
 
 Assign the new user to the new group 
 
-	$ usermod –aG <group> <name> 
+	usermod –aG <group> <name> 
 
 Check assignment; 
 
-	$ getent group <name> 
+	getent group <name> 
 
 Check the hostname 
 
-	$ hostname 
+	hostname 
 
 Modify the hostname; 
 
-	$ vi /etc/hostname 
+	vi /etc/hostname 
 
 view the partitions for this virtual machine 
 
-	$ lsblk 
+	lsblk 
 
 Check that the "sudo" is installed; 
 
-	$ dpkg -l | grep sudo 
+	dpkg -l | grep sudo 
 
 assigning the new user to the "sudo" group; 
 
-	$ usermod –aG <name> sudo 
+	usermod –aG <name> sudo 
 
 Checking; 
 
-	$ getent group sudo 
+	getent group sudo 
 
 Verifying a file in the directory indicated in the subject; 
 
-	$ cat /var/log/sudo/sudo.log 
+	cat /var/log/sudo/sudo.log 
 
 Run a simple command with sudo; 
 
-	$ sudo whoami 
+	sudo whoami 
 
 Check that the "ufw" is installed; 
 
-	$ apt-cache policy ufw 
+	apt-cache policy ufw 
 
 Check that ufw is working properly; 
 
-	$ ufw status 
+	ufw status 
 
 List all active rules in UFW; 
 
-	$ ufw status 
+	ufw status 
 
 Adding a new port; 
 
-	$ ufw allow <port> 
+	ufw allow <port> 
 
 Deleting a port; 
 
-	1) $ ufw status numbered  
+	1) ufw status numbered  
 
-	2) $ ufw delete <number indicated at the left > 
+	2) ufw delete <number indicated at the left > 
 
 Check that the SSH is installed; 
 
-	$ dpkg -l | grep ssh 
+	dpkg -l | grep ssh 
 
 Check that it is working properly; 
 
-$ service ssh status 
+service ssh status 
 
 Verifying that the SSH using only 4242 ports; 
 
-	$ service ssh status | grep 4242 
+	service ssh status | grep 4242 
 
 	or 
 
-	$ netstat -plant | grep 4242 
+	netstat -plant | grep 4242 
 
 	or 
 
-	$ vi /etc/ssh/ssh_config 
+	vi /etc/ssh/ssh_config 
 
 **************************************** 
 
