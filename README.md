@@ -91,9 +91,7 @@ Their choice of operating system?
 
  <code><b>The basic differences between CentOS and Debian ?</b> </code>
  
- ![image description](https://cdn.educba.com/academy/wp-content/uploads/2018/09/CentOS-vs-Debian-1.jpg)
-OR
-<img src="https://cdn.educba.com/academy/wp-content/uploads/2018/09/CentOS-vs-Debian-1.jpg" width="128"/>
+<img src="https://cdn.educba.com/academy/wp-content/uploads/2018/09/CentOS-vs-Debian-1.jpg" width="512"/>
 
 
   <code><b>The purpose of virtual machines? </b> </code>
@@ -117,8 +115,36 @@ OR
 
 Application : Try to install a simple program i'll go with a simple text editor 
 
-	sudo apt install geany
+> Let’s install it with apt-get:
 
+	sudo apt-get install geany
+	
+<img src="https://i.ibb.co/qykkNPk/Screen-Shot-2022-02-09-at-10-59-03-AM.png" width="1024"/>
+
+> Now let’s uninstall it:
+
+	sudo apt-get remove geany
+	
+<img src="https://i.ibb.co/r68t2fW/Screen-Shot-2022-02-09-at-11-06-36-AM.png" width="1024"/>
+
+Bad, bad…it just uninstalls geany not its dependencies (and it should because not any other package is using them). apt-get shows if you want to remove the dependencies with the ‘autotoremove’ option, which I’m sure nobody knows about it.
+
+> Now it’s aptitude’s turn:
+
+	sudo aptitude install geany
+
+<img src="https://i.ibb.co/syFq0tX/Screen-Shot-2022-02-09-at-11-12-49-AM.png" width="1024"/>
+
+> Now let’s uninstall it:
+
+	sudo aptitude remove geany
+
+<img src="https://i.ibb.co/Vxp3YZz/Screen-Shot-2022-02-09-at-11-15-17-AM.png" width="1024"/>
+
+I’s evident which is more efficient: :sassy_man: aptitude 
+
+
+	
 
 
 <code><i>APPArmor</i></code> protects the operating system and applications from external or internal threats, AppArmor is a Mandatory Access Control framework. When enabled, AppArmor confines programs according to a set of rules that specify what files a given program can access. This proactive approach helps protect the system against both known and unknown vulnerabilities
