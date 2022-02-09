@@ -79,11 +79,11 @@ First, we got to define what’s a Hypervisor;
 
 A piece of software that runs on top of hardware that creates a virtualization platform, this software is the one who create virtual machines and responsible for isolating the VN resources from the system hardware and making the necessary implementation so that the VM can use resources 
 
-The Hypervisor manages the hardware system and separate the physical resources from the virtual environment  
+ 1) The Hypervisor manages the hardware system and separate the physical resources from the virtual environment  
 
-When a user from a VM do a task that requires additional resources from physical environment 
+ 2) When a user from a VM do a task that requires additional resources from physical environment 
 
-The Hypervisor manages the request so that the guest OS could access to the resources of the physical environment 
+ 3) The Hypervisor manages the request so that the guest OS could access to the resources of the physical environment 
 
  
 
