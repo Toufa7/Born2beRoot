@@ -81,9 +81,7 @@ A piece of software that runs on top of hardware that creates a virtualization p
 
  1) The Hypervisor manages the hardware system and separate the physical resources from the virtual environment  
 
- 2) When a user from a VM do a task that requires additional resources from physical environment 
-
- 3) The Hypervisor manages the request so that the guest OS could access to the resources of the physical environment 
+ 2) When a user from a VM do a task that requires additional resources from physical environment the Hypervisor manages the request so that the guest OS could access to the resources of the physical environment 
 
  
 
@@ -143,13 +141,11 @@ Bad, bad…it just uninstalls geany not its dependencies (and it should because 
 
 I’s evident which is more efficient: :sassy_man: aptitude 
 
-
-	
+What we get at the end? Which one is better, and which one should you use? In simple terms, you can use any of them — considering that your requirement is met.
 
 
 <code><i>APPArmor</i></code> protects the operating system and applications from external or internal threats, AppArmor is a Mandatory Access Control framework. When enabled, AppArmor confines programs according to a set of rules that specify what files a given program can access. This proactive approach helps protect the system against both known and unknown vulnerabilities
 
-What we get at the end? Which one is better, and which one should you use? In simple terms, you can use any of them — considering that your requirement is met.
 
   <code><b>The advantages of this password policy? And the advantages and disadvantages of its implementation? </b> </code>
 
