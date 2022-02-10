@@ -163,7 +163,7 @@ With LVM we have more flexibility (dynamic partitions) when it comes to managing
 
 <code><b>What’s UFW (Uncomplicated Firewall) and the value of using it? </b> </code>
 
-
+briefly ; UFW it's a tool a program provide us with an interface to modify the firewall by simplyfing the configuration of firewall traffic (the amount for data being passed through a netwrok) and for a firewall it's simply a network security wall that monitors and filtere (allow ,deny outgoing and incoming data)
 
 
 A firewall interface configuration tool that runs on top of iptables (is a user space utility program that allows set up and maintain a system administrator to configure the IP (Internet Protocol used to identify machines connected to a network) packet filter rules), a tool that is geared to simplifying the process of configuring a Firewall traffic (the amount of data moving across a network at a given point of time). 
@@ -176,7 +176,7 @@ Firewall = a network security device that monitors and filters incoming / outgoi
 
  <code><b>What’s SSH (Secure Shell) and the value of using it? </b> </code>
 
-
+briefly ; SSH network protocle (number of rules that controling the exchange of information easy and secure) that allows one computer to connect over a network , SSH encrypt the packets data between computers without worrying about hacking,
 
 A network protocol (a sets of rules governing exchange of information in an easy reliable and secure way) that allows one computer to securely connect to another computer over a network (Internet), SSH encrypt automatically the packet data between computers without worrying about hacking. 
 
