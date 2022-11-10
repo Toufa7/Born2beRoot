@@ -89,8 +89,7 @@ Their choice of operating system?
 
  <code><b>The basic differences between CentOS and Debian ?</b> </code>
  
-<img src="https://cdn.educba.com/academy/wp-content/uploads/2018/09/CentOS-vs-Debian-1.jpg" width="512"/>
-
+find it by your self
 
   <code><b>The purpose of virtual machines? </b> </code>
   
